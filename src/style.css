@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GeistMono-Black';
+    src: url('./GeistMono-Black.woff2') format('woff2'),
+      url('./GeistMono-Black.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+.hello {
+    color: red;
+    font-family: 'GeistMono-Black';
+    background: url('./icon.png');
+  }
