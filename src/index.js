@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import printMe from './print';
+// import Print from './print';
 
 function component() {
   const element = document.createElement('div');
@@ -7,6 +7,7 @@ function component() {
 
   // lodash现在使用 import 引入
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  // element.onclick = Print.bind(null, 'Hello webpack!');
 
   btn.innerHTML = 'Click me and check the console!';
   btn.onclick = printMe;
